@@ -1,0 +1,30 @@
+<resources>
+
+    <string-array name="welcom_sentence">
+        <item>@string/welcome_sentence_1</item>
+    </string-array>
+
+    <string-array name="welcom_sentence2">
+        <item>@string/welcome_sentence_2</item>
+    </string-array>
+
+    <string-array name="employee_list">
+        <item>@string/employee_1</item>
+        <item>@string/employee_2</item>
+        <item>@string/employee_3</item>
+        <item>@string/employee_4</item>
+        <item>@string/employee_5</item>
+        <item>@string/employee_6</item>
+        <item>@string/employee_7</item>
+        <item>@string/employee_8</item>
+        <item>@string/employee_9</item>
+    </string-array>
+
+    <string-array name="conference_room_list">
+        <item>@string/conference_room_1</item>
+        <item>@string/conference_room_2</item>
+        <item>@string/conference_room_3</item>
+        <item>@string/conference_room_4</item>
+        <item>@string/conference_room_5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">追加サービス</string>
+
+    <string name="welcome_sentence_1">いらっしゃいませ。ご用件は何でしょうか？</string>
+    <string name="welcome_sentence_2">いらっしゃいませ</string>
+
+    <string name="btn_reception">受付ロボット</string>
+    <string name="btn_stop">ロボットが停止した</string>
+
+    <string name="action_dialar">ただいまお電話をおつなぎいたします。</string>
+    <string name="action_message">ご伝言をお願いできますでしょうか？</string>
+    <string name="action_contact">ご連絡先を頂戴いただけますか？</string>
+
+    <string name="meeting_info">場所： %s\n時間：2020/04/10</string>
+
+    <string name="visitorlist_contact">	%sに連絡します。少々お待ちくださいませ。</string>
+    <string name="visitorlist_not_found">すみません、メニューをクリックしてください</string>
+
+    <string name="visitor_response">%sさま，本日%s時より%sどの打ち合わせがございます。%sにご案内いたします。</string>
+
+    <string name="no_input">Please input some words.</string>
+
+    <string name="function_list_layout_title">機能メニュー</string>
+    <string name="employee_list_layout_title">誰とお約束なさっていますか？</string>
+    <string name="meeting_info_view_title">会議情報</string>
+
+    <string name="employee_1">伊藤 誠</string>
+    <string name="employee_2">佐藤 留美子</string>
+    <string name="employee_3">三沢 花子</string>
+    <string name="employee_4">山田 太郎</string>
+    <string name="employee_5">高橋 陽子</string>
+    <string name="employee_6">村上 修</string>
+    <string name="employee_7">鈴木 裕子</string>
+    <string name="employee_8">成田 京子</string>
+    <string name="employee_9">中川 斉</string>
+
+    <string name="conference_room_1">第一会議室</string>
+    <string name="conference_room_2">第二会議室</string>
+    <string name="conference_room_3">第三会議室</string>
+    <string name="conference_room_4">第四会議室</string>
+    <string name="conference_room_5">第五会議室</string>
+
+    <!-- Check -->
+    <string name="json_employee_list_action">選んでください</string>
+    <string name="json_meeting_info_message">%sさま，本日%s時より%sどの打ち合わせがございます。%sにご案内いたします。</string>
+    <string name="json_func_select_action">下記のアイコンにクリックしてください。</string>
+    <string name="json_room_list_action">会議室選び</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/linearLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary"
+		android:minHeight="?attr/actionBarSize"
+		android:theme="?attr/actionBarTheme"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/tv_info"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textAlignment="viewStart"
+			android:textSize="14sp" />
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/BtnReceptionRobot"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="BtnReception"
+				android:text="@string/btn_reception"
+				android:textSize="24sp" />
+<!--
+			<Button
+				android:id="@+id/BtnTestWelcome"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="BtnWelcome"
+				android:text="受付_Welcome"
+				android:textSize="24sp" />
+-->
+			<Button
+				android:id="@+id/BtnStopAllRobot"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="BtnStop"
+				android:text="@string/btn_stop"
+				android:textSize="24sp" />
+<!--
+			<Button
+				android:id="@+id/BtnTest"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="BtnTest"
+				android:text="Guest Visit"
+				android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/BtnTest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnTest2"
+                android:text="Meeting Room"
+                android:textSize="24sp" />
+
+			<Button
+				android:id="@+id/BtnTest3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="BtnTest3"
+				android:text="Reserved info"
+				android:textSize="24sp" />
+-->
+
+
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

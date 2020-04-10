@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/item_group_line" />
+    <size android:height="1dp" />
+</shape> -->
+
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:insetTop="15dp"
+       android:insetBottom="15dp" >
+
+    <shape>
+        <size android:width="2dp"/>
+        <solid android:color="@color/divider_vertical_line" />
+        <corners android:radius="200dp" />
+    </shape>
+
+</inset>

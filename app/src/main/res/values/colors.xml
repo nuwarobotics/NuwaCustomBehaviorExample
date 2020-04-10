@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite1">#FFFFFF</color>
+    <color name="transparent_black">#a5000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGreen5">#223c48</color>
+    <color name="colorRed1">#d0011b</color>
+
+    <!-- Nuwa Dialog -->
+    <color name="dialog_title_text_color">#1ff5da</color>
+    <color name="dialog_bg_color">#223c48</color>
+    <color name="dialog_btn_bg_color">#4c000000</color>
+    <color name="dialog_btn_text_press_color">#f64635</color>
+    <color name="divider_vertical_line">#223c48</color>
+    <color name="text_disabled_color">#80223c48</color>
+</resources>

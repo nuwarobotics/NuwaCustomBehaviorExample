@@ -1,0 +1,55 @@
+{
+  "ToBehavior": [
+    {
+      "FaceCheck": true
+    },
+    {
+      "ToSpeak": "どちらの会議室でしょうか？"
+    },
+    {
+      "ToLocalCmd": [
+        "第一会議室",
+        "第二会議室",
+        "第1会議室",
+        "第2会議室"
+      ]
+    },
+    {
+      "第一会議室": {
+        "ToSpeak": "%s樣, 第一会議室はこちらへどうぞ",
+        "ToMotion": "666_TA_DictateL",
+        "ToImage": {
+          "url": "https://www.sbj.or.jp/2016/wp-content/uploads/file/map/2016/conf_map-3fe.jpg",
+          "time": 5000
+        }
+      },
+      "第1会議室": {
+        "ToSpeak": "%s樣, 第一会議室はこちらへどうぞ",
+        "ToMotion": "666_TA_DictateL",
+        "ToImage": {
+          "url": "https://www.sbj.or.jp/2016/wp-content/uploads/file/map/2016/conf_map-3fe.jpg",
+          "time": 5000
+        }
+      },
+      "第二会議室": {
+        "ToSpeak": "%s樣, 第二会議室はこちらへどうぞ",
+        "ToMotion": "666_TA_DictateR",
+        "ToImage": {
+          "url": "https://i.imgur.com/l9IH24w.jpg",
+          "time": 5000
+        }
+      },
+      "第2会議室": {
+        "ToSpeak": "%s樣, 第二会議室はこちらへどうぞ",
+        "ToMotion": "666_TA_DictateR",
+        "ToImage": {
+          "url": "https://i.imgur.com/l9IH24w.jpg",
+          "time": 5000
+        }
+      },
+      "__ERROR__": {
+        "ToSpeak": "すみません。%s樣, ご指定の会議室は見つかりません。"
+      }
+    }
+  ]
+}
