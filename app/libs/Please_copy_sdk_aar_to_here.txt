@@ -1,0 +1,3 @@
+Please modify SDK Filename on NuwaCustomBehaviorExample\app\build.gradle
+Ex : 
+implementation(name: 'NuwaSDK-debug-2020-04-10_v2.0.0.06.2da203e', ext: 'aar')
