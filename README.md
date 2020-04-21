@@ -17,6 +17,21 @@ Robot Generation 2
  * Target SDK : `2.0.0.06`
  * [Nuwa Trainingkit Website](https://trainkit.nuwarobotics.com) (Only Allow Business Partner NOW)
 
+# `SOP : How to use example`
+ * Build APK
+    + Get NuwaSDK from official website
+    + Copy NuwaSDK to /app/libs folder
+    + Modify NuwaSDK file name on /app/build.gradle
+    + Build Example.
+ * Install App and StartService
+    + Install to Robot
+    + Launch Example App and Press button to start CustomBehaviorService.
+ * Setup TrainingKit
+    + Setup Your Q&A on TrainingKit Website.
+    + Deploy TrainingKit to Robot by SN.
+ * Start Test
+    + speak question you setup to kebbi
+
 # `Custom Behavior`
 
 System behavior allows developer to customize response behavior of a NLP result.
