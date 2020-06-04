@@ -1,5 +1,6 @@
 # NuwaCustomBehaviorExample
 Nuwa CustomBehavior allow developer receive notify from NLP result.
+
 This example is a simple auto reception of company counter.
  * Target SDK : `2.0.0.06`
 
@@ -36,14 +37,19 @@ Robot Generation 2
 # `Custom Behavior`
 
 System behavior allows developer to customize response behavior of a NLP result.
+
 Developer need to setup Chatbot Q&A from NUWA Trainkit website which allow developer setup Custom Intention for a sentence.
+
 Following sample code will present how to register receive this CustomIntentation notify and implement customize response.
 
 
 ## class BaseBehaviorService
 Developer should implement a class to determine how to react when receiving a customized NLP response from NUWA Trainkit. 
+
 This could be achieved by extending from class BaseBehaviorService.
+
 BaseBehaviorService declared three important functions which onInitialize(), createCustomBehavior() and notifyBehaviorFinished(). 
+
 There are two functions need to be implemented which onInitialize() and createCustomBehavior(). 
 
 * onInitialize()
