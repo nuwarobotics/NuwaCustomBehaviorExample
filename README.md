@@ -1,5 +1,6 @@
 # NuwaCustomBehaviorExample
 Nuwa CustomBehavior allow developer receive notify from NLP result.
+This example is a simple auto reception of company counter.
  * Target SDK : `2.0.0.06`
 
 # `Nuwa Website`
