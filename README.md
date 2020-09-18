@@ -17,6 +17,7 @@ Robot Generation 2
 
 # `CustomBehavior SDK`
  * Target SDK : `2.0.0.06`
+ * Target Robot Version : `1.3966.100JP.1`
  * [Nuwa Trainkit(トレーニングキット) Website](https://trainkit.nuwarobotics.com) (Only Allow Business Partner NOW)
 
 # `SOP : How to use example`
