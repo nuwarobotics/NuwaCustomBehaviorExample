@@ -159,3 +159,12 @@ public class CustomBehaviorImpl extends BaseBehaviorService {
 
 }
 ```
+## Quick Q & A
+
+Q1 : Why App did not receive process() callback 
+A1 : Please check following 
+1. Make sure your Service is running
+2. Confirm does package name setuped on Trainkit is correct. (must same with your app)
+
+
+
