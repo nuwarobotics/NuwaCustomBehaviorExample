@@ -33,7 +33,7 @@ Robot Generation 2
  * Setup TrainKit(トレーニングキット)
     + Setup Your Q&A on TrainKit(トレーニングキット) Website.
     + Deploy TrainKit to Robot by SN.
-    + Setup SOP : [https://bj.bcebos.com/v1/nuwarobotics-files/ImageJP/TrainingKit/TrainingKit_Tutorial_for_SDK.html)](https://developer-docs.nuwarobotics.com/sdk/TrainingKit/TrainingKit_Tutorial_for_SDK.html)
+    + Setup SOP : [https://developer-docs.nuwarobotics.com/sdk/TrainingKit/TrainingKit_Tutorial_for_SDK.html](https://developer-docs.nuwarobotics.com/sdk/TrainingKit/TrainingKit_Tutorial_for_SDK.html)
  * Start Test
     + speak question you setup to kebbi
 
